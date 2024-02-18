@@ -2,8 +2,8 @@ Pod::Spec.new do |s|
   s.name          = "QKMRZParserLP"
   s.version       = "2.0.1"
   s.summary       = "Parses MRZ (Machine Readable Zone) from identity documents."
-  s.author        = { "Matej Dorcak" => "sss.mado@gmail.com" }
-  s.homepage      = "https://github.com/Mattijah/QKMRZParser"
+  s.author        = { "Abdullah Alashi" => "abdalla.elashshi@leading-point.com" }
+  s.homepage      = "https://github.com/Abdullah-Alashi-LP/QKMRZParserLP/tree/master"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.source        = { :git => "https://github.com/Abdullah-Alashi-LP/QKMRZParserLP.git", :branch => "v#{s.version}" }
   s.source_files  = "QKMRZParser/**/*.{swift}"
