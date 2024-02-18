@@ -1,4 +1,5 @@
-[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![SwiftPackageSupport](https://img.shields.io/badge/Swift_Package_Index-red?logo=swift&logoColor=white)](https://swiftpackageindex.com/Mattijah/QKMRZParser)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![Git](https://img.shields.io/badge/GitHub-Mattijah-blue.svg?style=flat)](https://github.com/Mattijah)
 
 
@@ -13,10 +14,11 @@ Parses MRZ (Machine Readable Zone) from identity documents.
 * TD3
 * MRV-A
 * MRV-B
+* French ID
 
 ## Installation
 
-QKMRZParser is available through CocoaPods. To install it, simply add the following line to your Podfile:
+QKMRZParser is available through **CocoaPods** and the **Swift Package Manager**. To install it via CocoaPods simply add the following line to your Podfile:
 
 ```ruby
 pod 'QKMRZParser'
@@ -43,7 +45,7 @@ print(result)
 - [ ] Tests
 - [ ] Documentation
 - [ ] Support Swiss Driving License
-- [ ] Support French national ID
+- [x] Support French national ID
 - [ ] Improve OCR correction
 - [ ] Latin transliteration
 - [ ] Arabic transliteration
