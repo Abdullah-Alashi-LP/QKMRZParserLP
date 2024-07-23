@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "QKMRZParserLP"
-  s.version       = "2.0.1"
+  s.version       = "2.0.2"
   s.summary       = "Parses MRZ (Machine Readable Zone) from identity documents."
   s.author        = { "Abdullah Alashi" => "abdalla.elashshi@leading-point.com" }
   s.homepage      = "https://github.com/Abdullah-Alashi-LP/QKMRZParserLP"
